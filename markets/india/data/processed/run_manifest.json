@@ -1,0 +1,22 @@
+{
+  "run_timestamp": "2026-10-11T01:30:15",
+  "evaluation_version": "2.3.0",
+  "provenance_note": "Data, CAPM, bootstrap, four-factor and persistence outputs come from the full pipeline run at run_timestamp (rules then at 2.0.0). final_evaluation.csv/json and benchmark_sensitivity.csv were afterwards re-evaluated under rules 2.3.0 from those unchanged statistics (evaluator re-run, `python -m src.sensitivity`).",
+  "market_proxy": "iima_market",
+  "sample_start": "2019-01-02",
+  "sample_end": "2023-12-29",
+  "distinct_dates": 1216,
+  "observations_per_fund": [
+    1214,
+    1216
+  ],
+  "asynchronous_observations_dropped": 135,
+  "bootstrap": {
+    "method": "circular block, paired resampling, null-centred",
+    "block_length": 30,
+    "n_bootstrap": 1000,
+    "seed": 42
+  },
+  "hac": "Newey-West, Bartlett kernel, lags = floor(4*(n/100)^(2/9)), small-sample n/(n-k)",
+  "assumed_nifty500_dividend_yield_for_sensitivity": 0.013
+}

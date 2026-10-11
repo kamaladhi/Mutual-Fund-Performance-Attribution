@@ -1,0 +1,43 @@
+{
+  "raw_fund_prices.csv": {
+    "source": "Yahoo Finance (yfinance)",
+    "retrieval_datetime": "2026-10-06T01:28:47.911428",
+    "requested_date_range": [
+      "2019-01-01",
+      "2023-12-31"
+    ],
+    "actual_date_range": [
+      "2019-01-02",
+      "2023-12-29"
+    ],
+    "tickers": [
+      "AGTHX",
+      "FCNTX",
+      "DODGX",
+      "FDGRX",
+      "TRBCX",
+      "AIVSX",
+      "FLPSX",
+      "AMECX",
+      "PRHSX",
+      "PAGRX",
+      "FMAGX",
+      "MIGFX"
+    ],
+    "status": "DOWNLOADED_AND_SAVED"
+  },
+  "raw_benchmark_sp500.csv": {
+    "source": "Yahoo Finance (yfinance)",
+    "retrieval_datetime": "2026-10-06T01:28:48.682721",
+    "requested_date_range": [
+      "2019-01-01",
+      "2023-12-31"
+    ],
+    "actual_date_range": [
+      "2019-01-02",
+      "2023-12-29"
+    ],
+    "ticker": "^GSPC",
+    "status": "DOWNLOADED_AND_SAVED"
+  }
+}

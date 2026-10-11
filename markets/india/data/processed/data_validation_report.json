@@ -1,0 +1,99 @@
+[
+  {
+    "dataset_name": "raw_fund_prices",
+    "total_rows": 14781,
+    "columns_present": [
+      "Date",
+      "Adj Close",
+      "symbol"
+    ],
+    "is_valid": true,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "duplicate_dates_count": 0,
+    "missing_value_counts": {
+      "Date": 0,
+      "Adj Close": 0,
+      "symbol": 0
+    },
+    "min_date": "2019-01-01",
+    "max_date": "2023-12-29",
+    "is_chronologically_sorted": true
+  },
+  {
+    "dataset_name": "raw_benchmark_nifty500",
+    "total_rows": 1231,
+    "columns_present": [
+      "Date",
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "Adj Close",
+      "Volume",
+      "Dividends",
+      "Stock Splits",
+      "symbol"
+    ],
+    "is_valid": true,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "duplicate_dates_count": 0,
+    "missing_value_counts": {
+      "Date": 0,
+      "Open": 0,
+      "High": 0,
+      "Low": 0,
+      "Close": 0,
+      "Adj Close": 0,
+      "Volume": 0,
+      "Dividends": 0,
+      "Stock Splits": 0,
+      "symbol": 0
+    },
+    "min_date": "2019-01-01",
+    "max_date": "2023-12-29",
+    "is_chronologically_sorted": true
+  },
+  {
+    "dataset_name": "iima_factors_in_window",
+    "total_rows": 1239,
+    "columns_present": [
+      "Date",
+      "SMB",
+      "HML",
+      "Mom",
+      "Mkt-RF",
+      "RF",
+      "prev_date",
+      "raw_Mkt-RF",
+      "raw_SMB",
+      "raw_HML",
+      "raw_RF",
+      "raw_Mom",
+      "iima_market_return"
+    ],
+    "is_valid": true,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "duplicate_dates_count": 0,
+    "missing_value_counts": {
+      "Date": 0,
+      "SMB": 0,
+      "HML": 0,
+      "Mom": 0,
+      "Mkt-RF": 0,
+      "RF": 0,
+      "prev_date": 0,
+      "raw_Mkt-RF": 0,
+      "raw_SMB": 0,
+      "raw_HML": 0,
+      "raw_RF": 0,
+      "raw_Mom": 0,
+      "iima_market_return": 0
+    },
+    "min_date": "2019-01-01",
+    "max_date": "2023-12-29",
+    "is_chronologically_sorted": true
+  }
+]

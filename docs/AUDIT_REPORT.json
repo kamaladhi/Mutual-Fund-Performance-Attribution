@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "market": "india",
+      "funds": 12,
+      "rows": 14586,
+      "date_start": "2019-01-02",
+      "date_end": "2023-12-29",
+      "max_capm_alpha_reproduction_error": 8.917562868693274e-17,
+      "max_factor_alpha_reproduction_error": 2.9731534074983745e-16,
+      "max_hac_pvalue_reproduction_error": 1.3188339309522235e-12,
+      "classification_counts": {
+        "Weak/Inconclusive": 6,
+        "Positive but Inconclusive": 5,
+        "Strong Skill Candidate (Preliminary)": 1
+      }
+    },
+    {
+      "market": "usa",
+      "funds": 12,
+      "rows": 15084,
+      "date_start": "2019-01-03",
+      "date_end": "2023-12-29",
+      "max_capm_alpha_reproduction_error": 7.22078646875346e-17,
+      "max_factor_alpha_reproduction_error": 2.6952723906903397e-15,
+      "max_hac_pvalue_reproduction_error": 2.9556246339268455e-11,
+      "classification_counts": {
+        "Weak/Inconclusive": 9,
+        "Positive but Inconclusive": 2,
+        "Moderate Evidence": 1
+      }
+    },
+    {
+      "market": "shared rule set",
+      "evaluation_versions": {
+        "india": [
+          "2.3.0"
+        ],
+        "usa": [
+          "2.3.0"
+        ]
+      }
+    }
+  ],
+  "failures": [],
+  "scope_note": "Numerical reproduction from saved local series only (the independent statsmodels cross-check lives in tests/test_independent_numerics.py); external source identity, benchmark total-return completeness, fund-universe comparability and manager attribution remain separate caveats."
+}

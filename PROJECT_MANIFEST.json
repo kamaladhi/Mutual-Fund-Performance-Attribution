@@ -1,0 +1,32 @@
+{
+  "project": "Fund Manager Skill Detector Combined",
+  "release": "combined v2 (one rule set for both markets)",
+  "combined_ui_version": "2.0.0",
+  "rule_set": {
+    "evaluation_version": "2.3.0",
+    "applies_to": ["India", "USA"],
+    "parity_enforced_by": "tests/test_rule_parity.py"
+  },
+  "market_projects": {
+    "India": {
+      "directory": "markets/india",
+      "evaluation_version": "2.3.0",
+      "fund_count": 12
+    },
+    "USA": {
+      "directory": "markets/usa",
+      "evaluation_version": "2.3.0",
+      "fund_count": 12
+    }
+  },
+  "combined_fund_count": 24,
+  "classification_integrity": "Both markets are classified by one versioned, rule-based evaluator. The dashboard shows the classes in use (display only: the preliminary tier is named 'Strong' on screen, and the two classes with no funds are shown only if a fund falls into them; no class is merged and the saved results are unchanged) and warns if the markets are ever on different rule versions. No category distribution is targeted: the counts are whatever the fixed rules produce.",
+  "tests": {
+    "repository": "43 passed",
+    "usa": "111 passed",
+    "india": "181 passed",
+    "total": "335 passed, 0 skipped",
+    "see": "docs/AUDIT_REPORT.md"
+  },
+  "ui_runtime_note": "Install requirements.txt before launching Streamlit: pip install -r requirements.txt, then streamlit run app.py"
+}

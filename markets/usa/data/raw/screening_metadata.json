@@ -1,0 +1,130 @@
+[
+  {
+    "ticker": "AGTHX",
+    "fund_name": "American Funds Growth Fund of America",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker AGTHX pending evidence collection in Task 3/4."
+  },
+  {
+    "ticker": "FCNTX",
+    "fund_name": "Fidelity Contrafund",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker FCNTX pending evidence collection in Task 3/4."
+  },
+  {
+    "ticker": "DODGX",
+    "fund_name": "Dodge & Cox Stock Fund",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker DODGX pending evidence collection in Task 3/4."
+  },
+  {
+    "ticker": "FDGRX",
+    "fund_name": "Fidelity Growth Company Fund",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker FDGRX pending evidence collection in Task 3/4."
+  },
+  {
+    "ticker": "TRBCX",
+    "fund_name": "T. Rowe Price Blue Chip Growth Fund",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker TRBCX pending evidence collection in Task 3/4."
+  },
+  {
+    "ticker": "AIVSX",
+    "fund_name": "Investment Company of America",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker AIVSX pending evidence collection in Task 3/4."
+  },
+  {
+    "ticker": "FLPSX",
+    "fund_name": "Fidelity Low-Priced Stock Fund",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker FLPSX pending evidence collection in Task 3/4."
+  },
+  {
+    "ticker": "AMECX",
+    "fund_name": "Income Fund of America",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker AMECX pending evidence collection in Task 3/4.",
+    "universe_status": "EXPLORATORY_STYLE_MISMATCH",
+    "comparability_note": "Income-oriented equity strategy; not a clean peer for a broad growth-equity universe."
+  },
+  {
+    "ticker": "PRHSX",
+    "fund_name": "T. Rowe Price Health Sciences Fund",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker PRHSX pending evidence collection in Task 3/4.",
+    "universe_status": "EXPLORATORY_SECTOR_FUND",
+    "comparability_note": "Healthcare-sector fund; sector concentration is not captured by the broad four-factor model, so interpret its alpha cautiously."
+  },
+  {
+    "ticker": "PAGRX",
+    "fund_name": "Permanent Portfolio Aggressive Growth Fund",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker PAGRX pending evidence collection in Task 3/4.",
+    "identity_note": "Ticker identity corrected for display. Do not interpret this series as T. Rowe Price Growth Stock; that fund uses ticker PRGFX and would require a separate data acquisition and rerun.",
+    "short_name": "Permanent Portfolio Aggressive Growth",
+    "universe_status": "EXPLORATORY_NOT_BROAD_EQUITY_COMPARABLE",
+    "comparability_note": "Multi-asset/permanent-portfolio strategy; included for transparency but not directly comparable to diversified US equity funds under the same four-factor interpretation. T. Rowe Price Growth Stock is PRGFX and requires a separate data acquisition."
+  },
+  {
+    "ticker": "FMAGX",
+    "fund_name": "Fidelity Magellan Fund",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker FMAGX pending evidence collection in Task 3/4."
+  },
+  {
+    "ticker": "MIGFX",
+    "fund_name": "MFS Massachusetts Investors Growth Stock Fund",
+    "status": "CANDIDATE",
+    "active_mandate_evidence": null,
+    "expense_ratio_evidence": null,
+    "active_share_or_differentiation_evidence": null,
+    "verification_status": "UNVERIFIED_CANDIDATE",
+    "source_reference_info": "Candidate ticker MIGFX pending evidence collection in Task 3/4."
+  }
+]

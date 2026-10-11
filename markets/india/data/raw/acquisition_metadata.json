@@ -1,0 +1,43 @@
+{
+  "raw_fund_prices.csv": {
+    "source": "AMFI via mfapi.in API",
+    "retrieval_datetime": "2026-10-09T01:13:27.851405",
+    "requested_date_range": [
+      "2019-01-01",
+      "2023-12-31"
+    ],
+    "actual_date_range": [
+      "2019-01-01",
+      "2023-12-29"
+    ],
+    "tickers": [
+      "122639",
+      "118955",
+      "120586",
+      "118834",
+      "119598",
+      "120166",
+      "118989",
+      "120505",
+      "118668",
+      "118778",
+      "120828",
+      "119071"
+    ],
+    "status": "DOWNLOADED_AND_SAVED"
+  },
+  "raw_benchmark_nifty500.csv": {
+    "source": "Yahoo Finance (yfinance)",
+    "retrieval_datetime": "2026-10-09T01:13:28.980534",
+    "requested_date_range": [
+      "2019-01-01",
+      "2023-12-31"
+    ],
+    "actual_date_range": [
+      "2019-01-01",
+      "2023-12-29"
+    ],
+    "ticker": "^CRSLDX",
+    "status": "DOWNLOADED_AND_SAVED"
+  }
+}
