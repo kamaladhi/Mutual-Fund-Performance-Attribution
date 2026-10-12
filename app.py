@@ -561,7 +561,7 @@ def methodology_page(df: pd.DataFrame, issues: list[str]) -> None:
 # main
 # ----------------------------------------------------------------------------------------------------
 
-PAGES = ["Overview", "India", "USA", "Cross-market comparison", "Benchmark robustness", "Fund explorer", "Methodology & data"]
+PAGES = ["Overview", "Live Fund Analyser 🚀", "India", "USA", "Cross-market comparison", "Benchmark robustness", "Fund explorer", "Methodology & data"]
 
 
 def main() -> None:
@@ -589,6 +589,9 @@ def main() -> None:
 
     if page == "Overview":
         overview(df)
+    elif page == "Live Fund Analyser 🚀":
+        from live_search_page import render_live_search_page
+        render_live_search_page()
     elif page in cd.MARKETS:
         market_page(page, df)
     elif page == "Cross-market comparison":
